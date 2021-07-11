@@ -4,7 +4,7 @@
 
 ### train.py
 
-`python caption.py --root 'test_img.jpg'`
+`python train.py --image_size 500`
 
 | Arguement | Parse | Default |
 | ----------- | ----------- | ----------- |
