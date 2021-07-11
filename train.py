@@ -18,6 +18,7 @@ argparser.add_argument('--alpha',type=float,default=1)
 argparser.add_argument('--beta',type=float,default=0.01)
 argparser.add_argument('--content_root',type=str,default='images/content.jpg')
 argparser.add_argument('--style_root',type=str,default='images/style.jpg')
+argparser.add_argument('--gen_root',type=str,default='images/generated.jpg')
 
 args = argparser.parse_args()
 
@@ -78,4 +79,4 @@ for step in range(STEPS):
   
   if(step%50==0):
     print(f'STEP:{step} LOSS:{total_loss.item()}')
-  save_image(generated,'generated.jpg')
+  save_image(generated,args.gen_root)

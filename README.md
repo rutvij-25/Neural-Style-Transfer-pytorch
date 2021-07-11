@@ -15,6 +15,7 @@
 | Beta | --beta | 0.01 |
 | Content Image | --content_root | images/content.jpg |
 | Style Image | --style_root | images/style.jpg |
+| Generated Image | --gen_root | images/generated.jpg |
 
 
 
