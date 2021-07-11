@@ -16,11 +16,12 @@
 
 ### Content Image
 
-<img src="https://github.com/rutvij-25/Neural-Style-Transfer-pytorch/blob/main/images/content.jpg" width="250">
+<img src="https://github.com/rutvij-25/Neural-Style-Transfer-pytorch/blob/main/images/content.jpg" width="500">
 
-#### a dog is running through a field of grass and flowers .
+### Style Image
 
+<img src="https://github.com/rutvij-25/Neural-Style-Transfer-pytorch/blob/main/images/style.jpg" width="500">
 
-<img src="https://github.com/rutvij-25/ImageCaptioning-pytorch/blob/main/test/test2.jpeg" width="250">
+### Output Image
 
-#### a man in a red jacket and black pants is standing next to a man in a red jacket .
+<img src="https://github.com/rutvij-25/Neural-Style-Transfer-pytorch/blob/main/images/generated.jpg" width="500">
