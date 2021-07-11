@@ -2,17 +2,21 @@
 
 ## A minimal pytorch implementation of Neural Style Transfer
 
-### caption.py
+### train.py
 
 `python caption.py --root 'test_img.jpg'`
 
 | Arguement | Parse | Default |
 | ----------- | ----------- | ----------- |
-| Number of words to generate | --n | 25 |
-| Hidden  Size | --hidden_size | 512 |
-| Image to Caption | --root |  |
+| Image size | --image_size | 256 |
+| Steps | --steps | 6000 |
+| Learning Rate | --learning_rate | 0.001 |
+| Alpha | --alpha | 1 |
+| Beta | --beta | 0.01 |
+| Content Image | --content_root | images/content.jpg |
+| Style Image | --style_root | images/style.jpg |
 
-#### Pretrained model was too heavy to upload
+
 
 ### Content Image
 
