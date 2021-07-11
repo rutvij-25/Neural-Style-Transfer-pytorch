@@ -16,8 +16,8 @@ argparser.add_argument('--steps',type=int,default=6000)
 argparser.add_argument('--learning_rate',type=float,default=0.001)
 argparser.add_argument('--alpha',type=float,default=1)
 argparser.add_argument('--beta',type=float,default=0.01)
-argparser.add_argument('--content_root',type=str,default='content.jpg')
-argparser.add_argument('--style_root',type=str,default='style.jpg')
+argparser.add_argument('--content_root',type=str,default='images/content.jpg')
+argparser.add_argument('--style_root',type=str,default='images/style.jpg')
 
 args = argparser.parse_args()
 
