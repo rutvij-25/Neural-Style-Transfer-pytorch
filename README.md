@@ -6,7 +6,7 @@
 
 `python train.py --image_size 500`
 
-| Arguement | Parse | Default |
+| Argument | Parse | Default |
 | ----------- | ----------- | ----------- |
 | Image size | --image_size | 256 |
 | Steps | --steps | 6000 |
