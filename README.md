@@ -29,4 +29,4 @@
 
 ### Output Image
 
-<img src="https://github.com/rutvij-25/Neural-Style-Transfer-pytorch/blob/main/images/generated.jpg" width="300">
+<img src="https://github.com/rutvij-25/Neural-Style-Transfer-pytorch/blob/main/images/generated.jpg" width="400">
